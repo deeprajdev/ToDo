@@ -1,0 +1,152 @@
+/* 1400px and below */
+
+@media screen and (max-width: 1400px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .todo-app {
+    width: 100%;
+    max-width: 540px;
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  input,
+  button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+}
+
+
+/* 1200px and below */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .todo-app {
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  input,
+  button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+}
+
+
+/* 600px and below */
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .todo-app {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h2 img {
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  input,
+  button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+
+  ul li {
+    font-size: 15px;
+    padding: 10px 8px 10px 40px;
+  }
+
+  ul li:before {
+    top: 10px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+  }
+
+  ul li span {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    right: 10px;
+    top: 8px;
+  }
+}
